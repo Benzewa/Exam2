@@ -1,5 +1,5 @@
 #include <unistd.h>
-void first_word(char *s)
+void FirstWord(char *s)
 {
     while (*s == ' ' || *s == '\t')
         s++;
@@ -13,7 +13,7 @@ int main(int ac, char **av)
 {
     if (ac == 2)
     {
-        first_word(av[1]);
+        FirstWord(av[1]);
     }
     write(1, "\n", 1);
 }
