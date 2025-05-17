@@ -16,15 +16,15 @@ int IsPrime(int Num)
     int i;
     int Counter = 0;
 
-    for (int i = 1; i <= Num; i++)
+    for (i = 1; i <= Num; i++)
     {
         if (Num % i == 0)
             Counter++;
-        if (Counter == 2)
-            return (1);
-        else
-            return (0);
     }
+    if (Counter == 2)
+        return (1);
+    else
+        return (0);
 }
 void PutNbr(int Num)
 {
@@ -50,10 +50,12 @@ int main(int ac, char **av)
             }
         }
         PutNbr(Sum);
+        write(1, "\n", 1);
     }
-    if (ac != 2)
+    else
     {
         PutNbr(0);
         write(1, "\n", 1);
     }
+    return (0);
 }
