@@ -1,0 +1,1 @@
+Here’s my code for the 42 test question [fprime]. Can you simulate what the grademe script would check for during the test? also check online to know how the grademe checks.

@@ -1,2 +1,0 @@
-Here’s my code for the 42 test question [ulstr]. Can you simulate what the grademe script would check for during the test? also check online to know how the grademe checks
-give a fix for the potential issues and show where did you change as comments on code
