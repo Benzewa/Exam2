@@ -6,7 +6,7 @@ void fprime(int Num)
     int i = 1;
     if (Num == 1)
         printf("1");
-    while (Num >= ++i)
+    while (i++ <= Num)
     {
         if (Num % i == 0)
         {
